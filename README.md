@@ -15,7 +15,7 @@ Thus, the linearized model can be rewritten as:
 
 which simplifies to:
 
-<img src="figures/formu5.png" width="450">
+<img src="figures/formu5.png" width="425">
 
 Hence, the nonlinear dynamical model can be approximated at each time step by:
 
