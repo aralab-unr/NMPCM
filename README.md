@@ -123,6 +123,9 @@ Moreover, we also compare our controller with the state-of-the-art Model Predict
 
 <img src="figures/tablecompare.png" width="1100">
 
+# Experiments
+## Hardware Setups
+
 # Contact
 - [Van Chung Nguyen](mailto:vanchungn@.unr.edu)
 - [Hung La](mailto:hla@unr.edu)
