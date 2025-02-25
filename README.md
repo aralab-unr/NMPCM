@@ -121,7 +121,8 @@ $ ros2 run nmpccasadiquad nmpccasadiquad
 
 Moreover, we also compare our controller with the state-of-the-art Model Predictive Contouring Control (MPCC). The performance details are provided in this table:
 
-<img src="figures/tablecompare.png" width="1000">
+<img src="figures/tablecompare.png" width="1100">
+
 # Contact
 - [Van Chung Nguyen](mailto:vanchungn@.unr.edu)
 - [Hung La](mailto:hla@unr.edu)
