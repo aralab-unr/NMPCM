@@ -49,6 +49,16 @@ $ cd ./acadogenquad
 Now, the generated code is located in the acadogen_quad folder, which includes the necessary include directory required to run NMPCM. For more details on code generation, the author strongly recommends visiting: [ACADO Getting Started Guide](https://docs.ros.org/en/kinetic/api/acado/html/sim_getting_started.html)
 
 # Simulations
+## Software Requirements & Setup
+
+The simulation is designed with the following setup in:
+
+- Ubuntu 22.04
+- ROS2 Humble
+- Gazebo 11
+- Xarco-ROS-Humble (sudo apt install ros-humble-xacro)
+- Gazebo_ros_pkgs (sudo apt install ros-humble-gazebo-ros-pkgs)
+- ACADO Toolkit (https://acado.github.io/)
 
 # Contact
 - [Van Chung Nguyen](mailto:vanchungn@.unr.edu)
