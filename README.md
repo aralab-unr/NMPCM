@@ -3,7 +3,7 @@ We are considering the NMPC with the following formulation:
 <img src="figures/formu1.png" width="1000">
 To approximate the nonlinear dynamical function, we use its Jacobian at each time step:
 
-    <img src="figures/formu2.png" width="300">
+<img src="figures/formu2.png" width="300">
 
 where: 
 
@@ -11,7 +11,7 @@ where:
 
 Thus, the linearized model can be rewritten as:
 
-<img src="figures/formu4.png" width="1000">
+<img src="figures/formu4.png" width="400">
 
 which simplifies to:
 
