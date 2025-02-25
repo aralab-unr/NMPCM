@@ -23,4 +23,4 @@ Hence, the nonlinear dynamical model can be approximated at each time step by:
 
 Then the NMPC becomes the QP problem as: 
 
-<img src="figures/formu7.png" width="700">
+<img src="figures/formu7.png" width="675">
