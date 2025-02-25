@@ -77,6 +77,7 @@ Download the folder nmpcpidquad in the main branch
 $ cd ~/dev_ws
 $ colcon build
 ```
+Note that the package contains the code generation and includes the qpOASES library. If the user wants to use NMPCM for a different problem, they need to regenerate the code and copy it to the include folder.
 
 # Contact
 - [Van Chung Nguyen](mailto:vanchungn@.unr.edu)
