@@ -98,6 +98,7 @@ $ cd ~/dev_ws
 $ colcon build
 ```
 
+* Note that this project uses a custom plugin. Users need to update the plugin path in the file /urdf/uav_drone.urdf.xacro at line 268. Replace: filename="/home/username/dev_ws/install/nmpcpidquad/lib/nmpcpidquad/libuavplugin.so">" with the correct path by changing username to the name of your computer. Then rebuild the project again to run the simulation.
 # Contact
 - [Van Chung Nguyen](mailto:vanchungn@.unr.edu)
 - [Hung La](mailto:hla@unr.edu)
