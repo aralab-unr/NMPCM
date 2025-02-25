@@ -5,7 +5,7 @@ To approximate the nonlinear dynamical function, we use its Jacobian at each tim
 
 <img src="figures/formu2.png" width="300">
 
-where: 
+where:
 
 <img src="figures/formu3.png" width="375">
 
