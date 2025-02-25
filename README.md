@@ -23,7 +23,7 @@ Hence, the nonlinear dynamical model can be approximated at each time step by:
 
 Then the NMPC becomes the QP problem as: 
 
-<img src="figures/formu7.png" width="575">
+<img src="figures/formu7.png" width="550">
 
 Then, in order to solve the NMPC, we used the RK4 integration method and the qpOASES solver to solve the QP problem. Utilizing the code generation of ACADO and the qpOASES library, the generated code was then embedded into the microcontroller to solve the NMPC in real time.
 
