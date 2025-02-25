@@ -79,7 +79,7 @@ $ colcon build
 ```
 Note that the package contains the code generation and includes the qpOASES library. If the user wants to use NMPCM for a different problem, they need to regenerate the code and replace it to the include folder.
 
-Moreover, we also compare our method with state-of-the-art solver using CasADi, the code to run the NMPC based on CasADi is in the nmpccasadiquad folder, to run this the user must to install the [CasADi][https://github.com/zehuilu/Tutorial-on-CasADi-with-CPP). 
+Moreover, we also compare our method with state-of-the-art solver using CasADi, the code to run the NMPC based on CasADi is in the nmpccasadiquad folder, to run this the user must to install the [CasADi](https://github.com/zehuilu/Tutorial-on-CasADi-with-CPP). 
 # Contact
 - [Van Chung Nguyen](mailto:vanchungn@.unr.edu)
 - [Hung La](mailto:hla@unr.edu)
