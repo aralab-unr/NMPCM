@@ -98,7 +98,7 @@ $ cd ~/dev_ws
 $ colcon build
 ```
 
-To run the NMPCM simulation, follows these commands:
+To run the NMPCM simulation, follow these commands:
 ```shell
 # Step 1: Run the Gazebo model:
 $ ros2 launch nmpcpidquad model.launch.py
@@ -108,7 +108,8 @@ $ ros2 run nmpcpidquad nmpcpidquad %for the nmpcm
 or run
 $ ros2 run nmpcpidquad cascadedpid %for the cascaded pid
 ```
-To run the NMPC based on CasADi, follows these commands:
+To run the NMPC based on CasADi, follow these commands:
+
 ```shell
 # Step 1: Run the Gazebo model:
 $ ros2 launch nmpccasadiquad model.launch.py
