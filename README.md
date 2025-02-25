@@ -29,6 +29,9 @@ Then, in order to solve the NMPC, we used the RK4 integration method and the qpO
 
 
 # Code Generation
+The code generation is based on ACADO code generation and qpOASES solver, therefore the following library is required:
+- ACADO Toolkit (https://acado.github.io/)
+- qpOASES (https://github.com/coin-or/qpOASES)
 
 # Contact
 - [Van Chung Nguyen](mailto:vanchungn@.unr.edu)
