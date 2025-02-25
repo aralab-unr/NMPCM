@@ -118,6 +118,9 @@ $ ros2 launch nmpccasadiquad model.launch.py
 $ ros2 run nmpccasadiquad nmpccasadiquad 
 ```
 * Note that this project uses a custom plugin. Users need to replace the plugin path in the file /urdf/uav_drone.urdf.xacro at line 268. Replace: filename="/home/username/dev_ws/install/nmpcpidquad/lib/nmpcpidquad/libuavplugin.so" with the correct path by changing the username to the name of your computer. Then rebuild the project again to run the simulation.
+
+Moreover, we also compare our controller with the state-of-the-art Model Predictive Contouring Control (MPCC). The performance details are provided in this table:
+<img src="figures/tablecompare.png" width="425">
 # Contact
 - [Van Chung Nguyen](mailto:vanchungn@.unr.edu)
 - [Hung La](mailto:hla@unr.edu)
