@@ -7,11 +7,11 @@ To approximate the nonlinear dynamical function, we use its Jacobian at each tim
 
 where: 
 
-<img src="figures/formu3.png" width="350">
+<img src="figures/formu3.png" width="375">
 
 Thus, the linearized model can be rewritten as:
 
-<img src="figures/formu4.png" width="500">
+<img src="figures/formu4.png" width="450">
 
 which simplifies to:
 
