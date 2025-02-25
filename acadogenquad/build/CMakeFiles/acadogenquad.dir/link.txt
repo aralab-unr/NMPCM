@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/acadogenquad.dir/src/acadogenquad.cpp.o -o acadogenquad   -L/path/to/acado/lib  -Wl,-rpath,/path/to/acado/lib:/usr/local/lib /usr/local/lib/libacado_toolkit_s.so 
