@@ -29,3 +29,7 @@ Then, in order to solve the NMPC, we used the RK4 integration method and the qpO
 
 
 ## Code Generation
+
+# Contact
+- [Van Chung Nguyen](mailto:vanchungn@.unr.edu)
+- [Hung La](mailto:hla@unr.edu)
