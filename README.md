@@ -51,8 +51,7 @@ Now, the generated code is located in the acadogen_quad folder, which includes t
 # Simulations
 ## Software Requirements & Setup
 
-The simulation is designed with the following setup in:
-
+The simulation is configured with the following setup:
 - Ubuntu 22.04
 - ROS2 Humble
 - Gazebo 11
