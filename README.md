@@ -60,7 +60,7 @@ The simulation is configured with the following setup:
 - ACADO Toolkit (https://acado.github.io/)
 
 
-Follow these commands in order to run the simulation of NMPC-PID on ROS 2:
+Follow these commands in order to install the simulation of NMPC-PID on ROS 2:
 
 ```shell
 # Step 1: Create and build a colcon workspace:
@@ -71,7 +71,7 @@ $ echo "source ~/dev_ws/devel/setup.bash" >> ~/.bashrc
 
 # Step 2: Clone this repo into your workspace
 $ cd ~/dev_ws/src
-download the folder ahsmcmotorfailure in the main branch
+Download the folder nmpcpidquad in the main branch
 
 # Step 3: Build the colcon workspace for this package
 $ cd ~/dev_ws
