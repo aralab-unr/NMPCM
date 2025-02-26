@@ -125,7 +125,8 @@ Moreover, we also compare our controller with the state-of-the-art Model Predict
 
 # Experiments
 ## Hardware Setups
-We used the following sensors and receiver for the quadrotors:
+We used the following sensors and receivers for the quadrotors:
+- Teensy 4.1 
 - MPU 6050
 - Micoair MTF-02 optical flow and LiDAR sensor
 - FrSky X8R radio receiver
