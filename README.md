@@ -131,7 +131,12 @@ We used the following sensors and receivers for the quadrotors:
 - Micoair MTF-02 optical flow and LiDAR sensor
 - FrSky X8R radio receiver
 
-We verified the efficiency of our control method for real-time execution on the resource-constrained Teensy 4.1 microcontroller and implemented our flight controller across various quadrotor platforms. To embed the controller onto the Teensy 4.1, the user must download the ArduinoNMPC folder. This folder contains the library for NMPCM and the implemented code for the quadrotor. The user must copy the code generation library into the libraries folder of the Arduino IDE and then upload the sketch nmpcpidteensy.ino to Teensy 4.1.
+## Embedded library
+To embed the controller onto the Teensy 4.1, the user must download the ArduinoNMPC folder. This folder contains the library for NMPCM and the implemented code for the quadrotor. The user must copy the code generation library into the libraries folder of the Arduino IDE and then upload the sketch nmpcpidteensy.ino to Teensy 4.1. As disscused earlier, if the user want to run your own NMPC controller for other system, the user must to generate the code follow that problem and then replace all the generated file to the library to update the embeded code (the qpOASES is already is in the library). 
+* Note that the emebeded code include may missed some including in acado_qpoases_interface.cpp file, so change the include #include "SolutionAnalysis.hpp" to #include "SolutionAnalysis.hpp" and #include "SolutionAnalysis.hpp" to #include "SolutionAnalysis.hpp".
+## Results
+We verified the efficiency of our control method for real-time execution on the resource-constrained Teensy 4.1 microcontroller and implemented our flight controller across various quadrotor platforms. The solving time of the NMPCM is shown on that figure: 
+<img src="figures/solvetime" width="1100">
 
 # Contact
 - [Van Chung Nguyen](mailto:vanchungn@.unr.edu)
