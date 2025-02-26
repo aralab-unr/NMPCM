@@ -142,8 +142,7 @@ We verified the efficiency of our control method for real-time execution on the 
 
 We tested the controller with four types of drone frame:
 
-<img src="figures/droneframe.png" width="750">
-
+<img src="figures/droneframe.png" alt="Drone Frame" style="display: block; margin: 0 auto; width: 750px;">
 # Contact
 - [Van Chung Nguyen](mailto:vanchungn@.unr.edu)
 - [Hung La](mailto:hla@unr.edu)
