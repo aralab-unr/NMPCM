@@ -125,7 +125,10 @@ Moreover, we also compare our controller with the state-of-the-art Model Predict
 
 The video of the simulation:
 
-https://github.com/user-attachments/assets/9657e8e7-78af-483d-b066-f8e7ee8fff6a
+
+
+https://github.com/user-attachments/assets/a85ac6bd-6e1e-4d89-b4b2-e3d9a1b775a1
+
 
 # Experiments
 ## Hardware Setups
@@ -149,6 +152,13 @@ We tested the controller with four types of drone frame:
 <p align="center">
   <img src="figures/droneframe.png" alt="Drone Frame" width="750">
 </p>
+
+The video of the experiment:
+
+
+
+https://github.com/user-attachments/assets/fd118b67-6f45-42de-801a-5beff2fa1b87
+
 
 # Contact
 - [Van Chung Nguyen](mailto:vanchungn@.unr.edu)
