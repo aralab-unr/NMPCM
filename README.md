@@ -123,6 +123,11 @@ Moreover, we also compare our controller with the state-of-the-art Model Predict
 
 <img src="figures/tablecompare.png" width="1100">
 
+The video of running the simulation: 
+<p align="center">
+  <img src="simulationnmpcm.mp4" alt="video simu" width="750">
+</p>
+
 # Experiments
 ## Hardware Setups
 We used the following sensors and receivers for the quadrotors:
