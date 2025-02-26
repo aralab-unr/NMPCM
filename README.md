@@ -132,8 +132,9 @@ We used the following sensors and receivers for the quadrotors:
 - FrSky X8R radio receiver
 
 ## Embedded library
-To embed the controller onto the Teensy 4.1, the user must download the ArduinoNMPC folder. This folder contains the library for NMPCM and the implemented code for the quadrotor. The user must copy the code generation library into the libraries folder of the Arduino IDE and then upload the sketch nmpcpidteensy.ino to Teensy 4.1. As disscused earlier, if the user want to run your own NMPC controller for other system, the user must to generate the code follow that problem and then replace all the generated file to the library to update the embeded code (the qpOASES is already is in the library). 
-* Note that the emebeded code include may missed some including in acado_qpoases_interface.cpp file, so change the include #include "SolutionAnalysis.hpp" to #include "SolutionAnalysis.hpp" and #include "SolutionAnalysis.hpp" to #include "SolutionAnalysis.hpp".
+To embed the controller onto the Teensy 4.1, the user must download the ArduinoNMPC folder. This folder contains the library for NMPC (Nonlinear Model Predictive Control) and the implemented code for the quadrotor. The user must copy the code generation library into the libraries folder of the Arduino IDE and then upload the sketch nmpcpidteensy.ino to the Teensy 4.1. As discussed earlier, if the user wants to run their own NMPC controller for another system, they must generate the code according to the specific problem and then replace all the generated files in the library to update the embedded code. (Note that qpOASES is already included in the library.)
+
+* Note: The embedded code may have some missing includes in the acado_qpoases_interface.cpp file. To fix this, change: #include "INCLUDE/EXTRAS/SolutionAnalysis.hpp" to #include "SolutionAnalysis.hpp" and change #include "INCLUDE/QProblemB.hpp" to #include "QProblemB.hpp".
 ## Results
 We verified the efficiency of our control method for real-time execution on the resource-constrained Teensy 4.1 microcontroller and implemented our flight controller across various quadrotor platforms. The solving time of the NMPCM is shown on that figure: 
 <img src="figures/solvetime.png" width="1100">
