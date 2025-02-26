@@ -125,11 +125,7 @@ Moreover, we also compare our controller with the state-of-the-art Model Predict
 
 The video of the simulation:
 
-<p align="center">
-  <video width="750" controls>
-    <source src="simulationnmpcm.mp4" type="video/mp4">
-  </video>
-</p>
+https://github.com/user-attachments/assets/9657e8e7-78af-483d-b066-f8e7ee8fff6a
 
 # Experiments
 ## Hardware Setups
