@@ -137,6 +137,11 @@ To embed the controller onto the Teensy 4.1, the user must download the ArduinoN
 * Note: The embedded code may have some missing includes in the acado_qpoases_interface.cpp file. To fix this, change: #include "INCLUDE/EXTRAS/SolutionAnalysis.hpp" to #include "SolutionAnalysis.hpp" and change #include "INCLUDE/QProblemB.hpp" to #include "QProblemB.hpp".
 ## Results
 We verified the efficiency of our control method for real-time execution on the resource-constrained Teensy 4.1 microcontroller and implemented our flight controller across various quadrotor platforms. The solving time of the NMPCM is shown on that figure: 
+
+<img src="figures/solvetime.png" width="1100">
+
+We tested the controller with four types of drone frame:
+
 <img src="figures/solvetime.png" width="1100">
 
 # Contact
