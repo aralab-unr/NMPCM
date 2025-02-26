@@ -130,7 +130,7 @@ We used the following sensors and receiver for the quadrotors:
 - Micoair MTF-02 optical flow and LiDAR sensor
 - FrSky X8R radio receiver
 
-We verified the efficiency of our control method for real-time execution on the resource-constrained Teensy 4.1 microcontroller and implemented our flight controller across various quadrotor platforms. To embed the controller onto the Teensy 4.1, the user must download the ArduinoNMPC folder. This folder contains the library for NMPC (Nonlinear Model Predictive Control) and the implemented code for the quadrotor. The user must copy the code generation library into the libraries folder of the Arduino IDE and then upload the sketch nmpcpidteensy.ino to Teensy 4.1.
+We verified the efficiency of our control method for real-time execution on the resource-constrained Teensy 4.1 microcontroller and implemented our flight controller across various quadrotor platforms. To embed the controller onto the Teensy 4.1, the user must download the ArduinoNMPC folder. This folder contains the library for NMPCM and the implemented code for the quadrotor. The user must copy the code generation library into the libraries folder of the Arduino IDE and then upload the sketch nmpcpidteensy.ino to Teensy 4.1.
 
 # Contact
 - [Van Chung Nguyen](mailto:vanchungn@.unr.edu)
